@@ -196,7 +196,7 @@ textarea {
   max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
-  height:65px;
+  height:73px;
 }
 .option i:hover {
   background-color: #d2bd96;
