@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Sticky Note App ">
+    <meta name="keywords" content="sticky notes app,sticky notes app for android,sticky notes app for desktop,post it notes app,sticky notes in notes">
+    <meta name="author" content="Gowtham V">
+  
+    <title>Notes app</title>
+    <link rel="icon" type="image/x-icon" href="/images/apple-touch-icon.png">
+
+    <!-- Style  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Scripts  -->
+  </head>
+  <body>
+    <section id="NOTE">
+     
+     
+    </section>
+    <section>
+      <div class="popup-block" id="popup">
+        <div class="popup">
+          <header>
+            <h1>Add a new note</h1>
+            <i class="bx bx-x" id="bx-x"></i>
+          </header>
+          <form action="#">
+            <label>Add a title</label>
+            <input type="text" name="title" class="title" />
+            <label>Give a description</label>
+            <!-- <textarea name="description" class="description"> -->
+            <textarea name="description" id="description"></textarea>
+            <button type="submit" class="addbtn" id="addbtn">Add</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrapper">
+
+          <li class="add-a-note">
+            <i class="bx bx-plus"></i>
+            <h2>Add a note</h2>
+          </li>
+<!-- 
+        <li class="note">
+          <div class="content">
+            <div class="header">
+              <h1>This is a Title</h1>
+              <div class="settings">
+                <i onclick="showMenu(this)" class="bx bx-dots-horizontal-rounded"></i>
+                  <div class="option">
+                    <i class="bx bx-edit-alt"> Edit</i>
+                    <i class="bx bx-trash">Delete</i>
+                  </div>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              ad qui perferendis officia quas quaerat doloremque maiores aperiam
+              aspernatur quos?
+            </p>
+          </div>
+          <div class="botom">
+            <h3>1 Jun</h3>
+          </div>
+        </li>
+
+         -->
+
+      </div>
+    </section>
+    <section>
+      <div class="popup-block">
+        <div class="OneNote">
+          <h1>This is title</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio distinctio possimus enim officiis! Quibusdam quos eum incidunt perspiciatis ratione?</p>
+        </div>
+      </div>
+    </section>
+    <!-- script  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
