@@ -1,5 +1,5 @@
 {
-    "mame":"StickyNotes",
+    "name":"StickyNotes",
     "short_name":"SticlkyNotes",
     "start_url":"/?home=true",
     "icons":[{
