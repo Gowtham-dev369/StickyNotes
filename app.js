@@ -61,14 +61,14 @@ function showMenu(ele) {
   });
 }
 // Update function
-function updateNote(index, tit = "", descc = "") {
+function updateNote(index, tit = "", desccc = "") {
   update = true;
   id = index;
   addNote.click();
   addbtn.innerText = "Update Note";
   popupTitle.innerText = "Updata a Note";
   titlee.value = tit;
-  descc.value = descc;
+  descc.value = desccc;
 }
 // Show Notes from the Local Storage 
 function showNotes() {
